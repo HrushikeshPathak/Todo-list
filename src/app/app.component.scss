@@ -1,0 +1,51 @@
+.container{
+    margin-top: 10px;
+    text-align: center;
+    h2{
+        text-align: center;
+    }
+.inputfield{
+    border:solid;
+    padding:35px;
+    margin:20px 300px;
+    background-color: rgba(46, 189, 255, 0.493);
+    color: white;
+    input{
+        width:50%;
+        padding:8px 20px;
+        font-size: 18px;        
+    }
+    button{
+        padding:11px ;
+        background-color: black;
+        color: white;
+    }
+}
+.list{
+  
+    margin: 20px 300px;   
+   
+    
+ul{ text-align: left;
+    font-size: 22px;
+    background-color: rgb(215, 245, 250);
+    border:solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    li:hover{
+        background-color:rgb(207, 223, 230);       
+        
+    }        
+        .removebtn{
+            padding: 6px;
+            background-color: rgb(231, 59, 59);
+            color: rgb(238, 217, 217);    
+            text-align: right;   
+            
+        }
+    
+}   
+}    
+}
+
+

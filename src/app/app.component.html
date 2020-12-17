@@ -1,0 +1,19 @@
+<div class="container">
+  <div>
+    <h2> ToDo List </h2>
+  </div>
+  <div class="inputfield">
+    <input type="text" placeholder="Enter a Task" [(ngModel)]="text">
+    <button type="button" (click)="onAdditem()">Add</button>
+  </div>
+  <div class="list">
+    
+    <ul *ngFor="let item of items; let i=index;">
+     <li> {{item}}
+        <button class="removebtn" type="button" (click)="onRemove(i)">X</button>
+        </li>
+    </ul>
+    
+    
+  </div>
+</div>
